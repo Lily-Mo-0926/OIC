@@ -1,0 +1,20 @@
+# 编译产物
+*.exe
+*.out
+*.o
+*.obj
+
+# 日志
+*.log
+Raw Build Log.txt
+
+# 临时文件
+*.tmp
+*.bak
+
+# 课件
+*.pptx
+
+# IDE 文件
+.vscode/
+.idea/
