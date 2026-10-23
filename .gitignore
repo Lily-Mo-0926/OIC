@@ -3,6 +3,8 @@
 *.out
 *.o
 *.obj
+*.ans
+*.in
 
 # 日志
 *.log
