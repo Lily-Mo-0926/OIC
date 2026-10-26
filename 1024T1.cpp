@@ -26,7 +26,8 @@ bool check(int x){
 	return 1;
 }
 int main(){
-	
+	freopen("snake.in","r",stdin);
+	freopen("snake.out","w",stdout); 
 	cin>>T;
 	while(T--){
 		cin>>n;
