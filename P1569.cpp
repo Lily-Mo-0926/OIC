@@ -11,7 +11,7 @@ int main(){
 		return 0;
 	}
 	for(int i=1;i<=n;i++){
-		f[i]=-1e9; 
+		f[i]=-1e9;//为什么加上这个就多得10pts从而ak 
 		for(int j=i-1;j>=0;j--){
 			if(s[i]-s[j]>=0){
 				f[i]=max(f[i],f[j]+1);
